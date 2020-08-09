@@ -2,14 +2,16 @@
   "name": "mars-photos-app",
   "version": "1.0.0",
   "description": "An app for viewing photos on mars",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "server": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GreatDeveloper66/mars-photos-app.git"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "MIT",
